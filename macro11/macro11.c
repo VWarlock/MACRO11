@@ -87,7 +87,10 @@ static void print_version(
     fprintf(strm, "macro11 - portable MACRO11 assembler for DEC PDP-11\n");
     fprintf(strm, "  Version %s\n", VERSIONSTR);
     fprintf(strm, "  Copyright 2001 Richard Krehbiel,\n");
-    fprintf(strm, "  modified 2009-2016 by Joerg Hoppe and github/shattered.\n");
+	fprintf(strm, "  modified 2008 by Joerg Hoppe\n");
+	fprintf(strm, "  modified 2009 by github/shattered\n");
+	fprintf(strm, "  modified 2009-2016 by Joerg Hoppe.\n");
+	fprintf(strm, "  modified 2017 by VWarlock\n");
 }
 
 

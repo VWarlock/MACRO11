@@ -1,4 +1,6 @@
-/* Dump and interpret an object file. */
+/* 
+Dump and interpret an object file. 
+*/
 
 /*
 Copyright (c) 2001, Richard Krehbiel
@@ -33,6 +35,7 @@ USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH
 DAMAGE.
 
 */
+#include "dumpobj.h"
 
 #include <stdio.h>
 #include <stddef.h>
@@ -53,7 +56,7 @@ FILE           *bin = NULL;
 int             badbin = 0;
 int             xferad = 1;
 
-char           *readrec(
+char *readrec(
     FILE *fp,
     int *len)
 {
@@ -622,6 +625,56 @@ void got_libend(
     printf("LIBEND\n");
 }
 
+
+
+/*
+
+*/
+static void print_version(
+	FILE *strm)
+{
+	fprintf(strm, "dumpobj - Dump and interpret an object file.\n");
+	fprintf(strm, "  Version %s\n", VERSIONSTR);
+	fprintf(strm, "  Copyright(c) 2001 - 2016 Joerg Hoppe, \n");
+	fprintf(strm, "  modified 2017 by VWarlock\n");
+}
+
+
+/*
+
+*/
+static void print_help(
+	void)
+{
+	printf("\n");
+	print_version(stdout);
+	printf("\n");
+	
+	printf("Usage:\n");
+	printf("  dumpobj [-o <file>] [-l [<file>]] \n");
+	printf("          [-h] [-v][-e <option>] [-d <option>]\n");
+	printf("\n");
+	
+	printf("Arguments:\n");
+	
+	printf("Options:\n");
+	
+	printf("\n");
+}
+
+
+/*
+
+*/
+void usage(char *message) {
+	fputs(message, stderr);
+	exit(EXIT_FAILURE);
+}
+
+
+/*
+  MAIN
+*/
 int main(
     int argc,
     char *argv[])
@@ -629,6 +682,12 @@ int main(
     int             len;
     FILE           *fp;
     char           *cp;
+
+	if (argc <= 1) {
+		print_help();
+		exit(EXIT_FAILURE);
+	}
+
 
     fp = fopen(argv[1], "rb");
     if (fp == NULL)
