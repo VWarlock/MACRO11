@@ -10,7 +10,7 @@
 
 #include "rept_irpc.h"                 /* my own definitions */
 
-#include "util.h"
+#include "../common/util.h"
 #include "assemble_aux.h"
 #include "parse.h"
 #include "listing.h"

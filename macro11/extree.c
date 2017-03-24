@@ -6,9 +6,9 @@
 
 #include "extree.h"                    /* my own definitions */
 
-#include "util.h"
+#include "../common/util.h"
 #include "assemble_globals.h"
-#include "object.h"
+#include "../common/object.h"
 
 
 /* Diagnostic: print an expression tree.  I used this in various

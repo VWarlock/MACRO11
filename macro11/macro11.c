@@ -44,13 +44,13 @@ DAMAGE.
 
 #include "macro11.h"
 
-#include "util.h"
+#include "../common/util.h"
 
 #include "assemble_globals.h"
 #include "assemble.h"
 #include "assemble_aux.h"
 #include "listing.h"
-#include "object.h"
+#include "../common/object.h"
 #include "symbols.h"
 
 #ifndef WIN32

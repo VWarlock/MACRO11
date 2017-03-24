@@ -44,11 +44,11 @@ DAMAGE.
 #include <stdlib.h>
 #include <string.h>
 
-#include "rad50.h"
+#include "../common/rad50.h"
 
-#include "object.h"
+#include "../common/object.h"
 
-#include "macro11.h"
+//#include "macro11.h"
 
 /*
   writerec writes "formatted binary records."

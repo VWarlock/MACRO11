@@ -1,9 +1,11 @@
 #ifndef MACRO11_H
 #define MACRO11_H
 
-#define VERSIONSTR "0.4 (" __DATE__ " " __TIME__ ")"
+#define VERSIONSTR "0.5 (" __DATE__ " " __TIME__ ")"
+
+//#define VERSIONSTR "0.4 (November 4, 2016)"
 //#define VERSIONSTR "0.3 (April 21, 2009)"
-//#define VERSIONSTR "0.2   July 15, 2001"
+//#define VERSIONSTR "0.2 (July 15, 2001)"
 
 
 /*

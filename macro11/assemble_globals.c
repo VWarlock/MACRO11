@@ -4,7 +4,7 @@
 
 #include "assemble_globals.h"          /* own definitions */
 
-#include "object.h"
+#include "../common/object.h"
 
 
 /* GLOBAL VARIABLES */

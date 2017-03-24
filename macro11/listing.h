@@ -2,7 +2,7 @@
 #ifndef LISTING__H
 #define LISTING__H
 
-#include "stream2.h"
+#include "../common/stream2.h"
 
 /*
     format of a listing line

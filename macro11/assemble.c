@@ -9,10 +9,10 @@
 #include "assemble_globals.h"
 #include "assemble_aux.h"
 
-#include "util.h"
+#include "../common/util.h"
 
-#include "mlb.h"
-#include "object.h"
+#include "../common/mlb.h"
+#include "../common/object.h"
 #include "listing.h"
 #include "parse.h"
 #include "symbols.h"
@@ -20,7 +20,7 @@
 #include "macros.h"
 #include "rept_irpc.h"
 
-#include "rad50.h"
+#include "../common/rad50.h"
 
 
 

@@ -2,7 +2,7 @@
 #ifndef REPT_IRPC__H
 #define REPT_IRPC__H
 
-#include "stream2.h"
+#include "../common/stream2.h"
 
 
 #ifndef REPT_IRPC__C

@@ -3,11 +3,11 @@
 #define ASSEMBLE_GLOBALS__H
 
 
-#include "mlb.h"
+#include "../common/mlb.h"
 #include "symbols.h"
 #include "extree.h"
-//#include "stream2.h"
-//#include "object.h"
+//#include "../common/stream2.h"
+//#include "../common/object.h"
 
 
 

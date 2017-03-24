@@ -38,15 +38,15 @@ DAMAGE.
 #include <stdlib.h>
 #include <string.h>
 
-#include "rad50.h"
+#include "../common/rad50.h"
 
-#include "stream2.h"
+#include "../common/stream2.h"
 
-#include "mlb.h"
+#include "../common/mlb.h"
 
-#include "macro11.h"
+//#include "macro11.h"
 
-#include "util.h"
+#include "../common/util.h"
 
 #define WORD(cp) ((*(cp) & 0xff) + ((*((cp)+1) & 0xff) << 8))
 

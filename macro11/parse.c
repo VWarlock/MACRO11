@@ -7,8 +7,8 @@
 
 #include "parse.h"                     /* my own definitions */
 
-#include "util.h"
-#include "rad50.h"
+#include "../common/util.h"
+#include "../common/rad50.h"
 #include "assemble_globals.h"
 
 

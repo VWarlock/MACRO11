@@ -2,8 +2,8 @@
 #ifndef ASSEMBLE_AUX__H
 #define ASSEMBLE_AUX__H
 
-#include "stream2.h"
-#include "object.h"
+#include "../common/stream2.h"
+#include "../common/object.h"
 #include "extree.h"
 
 #define NO_REG 0777

@@ -41,9 +41,9 @@ DAMAGE.
 #include <ctype.h>
 #include <assert.h>
 
-#include "rad50.h"
+#include "..\common\rad50.h"
 
-#include "util.h"
+#include "..\common\util.h"
 
 #define WORD(cp) ((*(cp) & 0xff) + ((*((cp)+1) & 0xff) << 8))
 

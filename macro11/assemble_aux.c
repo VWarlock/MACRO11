@@ -7,7 +7,7 @@
 #include <string.h>
 #include <assert.h>
 
-#include "util.h"
+#include "../common/util.h"
 
 #include "assemble_aux.h"              /* my own definitions */
 

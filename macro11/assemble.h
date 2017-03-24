@@ -3,8 +3,8 @@
 #define ASSEMBLE__H
 
 
-#include "stream2.h"
-#include "object.h"
+#include "../common/stream2.h"
+#include "../common/object.h"
 
 
 

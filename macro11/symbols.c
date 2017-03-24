@@ -6,7 +6,7 @@
 
 #include "symbols.h"                   /* my own definitions */
 
-#include "util.h"
+#include "../common/util.h"
 #include "assemble_globals.h"
 #include "listing.h"
 

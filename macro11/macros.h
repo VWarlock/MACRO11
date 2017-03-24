@@ -5,7 +5,7 @@
 /* Arguments given to macros or .IRP/.IRPC blocks */
 
 #include "symbols.h"
-#include "stream2.h"
+#include "../common/stream2.h"
 
 
 typedef struct arg {

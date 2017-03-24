@@ -12,12 +12,12 @@
 
 #include "macros.h"                    /* my own definitions */
 
-#include "util.h"
+#include "../common/util.h"
 #include "assemble_globals.h"
 #include "assemble_aux.h"
 #include "listing.h"
 #include "parse.h"
-#include "stream2.h"
+#include "../common/stream2.h"
 #include "symbols.h"
 
 
